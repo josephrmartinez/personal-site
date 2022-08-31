@@ -7,17 +7,37 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/8ccbdc447c.js" crossorigin="anonymous"></script>
+
       <title>Joseph Martinez</title>
     </head>
     <body>
       <nav id="navbar" class="nav">
+          <ul class="nav-list">
+              <li>
+                  <a href="#welcome-section">about</a>
+              </li>
+              <li>
+                  <a href="#portfolio">portfolio</a>
+              </li>
+              <li>
+                  <a href="#work_experience">experience</a>
+              </li>
+              <li>
+                  <a href="#projects">projects</a>
+              </li>
+              <li>
+                  <a href="#contact">contact</a>
+              </li>
+          </ul>
+
       </nav>
       <section id="welcome-section" class="welcome-section">
-          <h1 class="intro">Joseph Martinez:</h1>
+          <h1 class="intro">joseph martinez:</h1>
           <h3 class="dialogue">full-stack + bizdev</h3>
-          <h3 class="dialogue">build & ship</h3>
+          <h3 class="dialogue">build + ship</h3>
           <h5 id="intro-stack">tech stack:</h5>
-          <div id="tech-stack" class="container">
+          <div id="tech-stack">
               <div class="tech">python</div>
               <div class="tech">django</div>
               <div class="tech">anvil</div>
@@ -29,35 +49,64 @@
               <div class="tech">PostgreSQL</div>
           </div>
       </section>
-      <section id="projects" class="projects">
-          <h2 class="projects-section-header">projects</h2>
-          <div class="project">
-              <h3>solar.io</h3>
-              <p class="project desc">Remote monitoring web app for residential solar panels. Automated alert system in case of system failure or irregular production.</p>
-              <p class="tech used">Python Anvil SolarEdge API Twilio API</p>
-          </div>
-          <div class="project">
-              <h3>tenideas</h3>
-              <p class="project desc">Social network encouraging users to generate and share ideas. Antidote to passive consumption of online media.</p>
-              <p class="tech used">Python Anvil</p>
-          </div>
-          <div class="project">
-              <h3>orderly</h3>
-              <p class="project desc">Maintenance work order web app built with tenants' needs in mind.</p>
+      <section id="portfolio">
+          <h2 class="section-header">portfolio</h2>
+          <div class="project-tile">
+              <div class="project">
+                  <h3>solar.io</h3>
+                  <p class="desc">Remote monitoring web app for residential solar panels. Automated alert system in case of system failure or irregular production.</p>
+                  <p class="tech used">Python Anvil SolarEdge API Twilio API</p>
+              </div>
+              <div class="project">
+                  <h3>tenideas</h3>
+                  <p class="desc">Social network encouraging users to generate and share ideas. Antidote to passive consumption of online media.</p>
+                  <p class="tech used">Python Anvil</p>
+              </div>
+              <div class="project">
+                  <h3>orderly</h3>
+                  <p class="desc">Maintenance work order web app built with tenants' needs in mind.</p>
+              </div>
           </div>
       </section>
+      <section id="work_experience">
+          <h2 class="section_header">recent work experience</h2>
+          <div class="project-tile">
+              <div class="work_experience">
+                  <h3>arizona microgreens</h3>
+                  <p class="desc">bootstrapped innovative urban greenhouse social enterprise.<br>Launched successful product lines for retail, hospitality, and direct-to-consumer markets.</p>
+              </div>
+              <div class="work_experience">
+                  <h3>communication coach</h3>
+                  <p class="desc">design and lead high-impact empathetic communication workshops for organizations, teams, and individuals.</p>
+              </div>
+          </div>
+      <section id="projects">
+          <h2 class="section_header">projects</h2>
+          <div class="project-tile">
+              <div class="other">
+                  <h3>savor</h3>
+                  <p class="desc">mindful eating events produced for public events, private clients, and spiritual centers.</p>
+              </div>
+              <div class="other">
+                  <h3>guesthouse renovation</h3>
+                  <p class="desc">complete design+build renovation of a workshop into a 420sq ft vacation rental.</p>
+              </div>
+          </div>
       <section id="contact" class="contact-section">
-          <div class="contact-section-header">
-              <h2>Let's connect</h2>
-              <p>Open to new opportunities and giving feedback</p>
+          <div class="section-header">let's connect</div>
+              <p>Open to new opportunities, collaborations, and giving feedback</p>
           </div>
           <div class="contact-links">
-              <a>email</a>
-              <a>linkedin</a>
-              <a>github</a>
-              <a>freecodecamp</a>
+              <a class="btn contact-details" href="https://github.com/josephrmartinez" id="profile-link" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  github</a>
+              <a class="btn contact-details" href="https://www.linkedin.com/in/joseph-martinez-08174811/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  linkedin</a>
+              <a class="btn contact-details" href="mailto:joseph.r.martinez@gmail.com" target="_blank">
+                  <i class="fa-regular fa-at"></i>
+                  email</a>
           </div>
-
       </section>
       <footer>
       </footer>
