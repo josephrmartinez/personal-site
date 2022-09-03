@@ -7,7 +7,6 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/8ccbdc447c.js" crossorigin="anonymous"></script>
 
       <title>Joseph Martinez</title>
     </head>
@@ -34,12 +33,12 @@
               <div id="personal-id">
                   <img src="./Joseph.jpg" id="profile-image"/>
                   <h3 class="intro">Joseph Martinez</h3>
-                  <h3 class="intro-email">joseph.r.martinez@gmail.com</h3>
+                  <a class="intro-email" href="mailto:joseph.r.martinez@gmail.com">joseph.r.martinez@gmail.com</a>
               </div>
               <div id="professional-id">
                   <h3 id="role">full-stack + bizdev</h3>
                   <h3 id="tagline">build and ship.</h3>
-                  <div id="tech-stack">
+                  <div id="tech-stack" class="tech-stack">
                       <div class="tech">python</div>
                       <div class="tech">django</div>
                       <div class="tech">anvil</div>
@@ -53,62 +52,78 @@
               </div>
           </div>
       </section>
-      <section id="portfolio">
+      <section id="portfolio" class="content-section">
           <h2 class="section-header">portfolio</h2>
           <div class="project-tile">
               <div class="project">
                   <h3>solar.io</h3>
                   <p class="desc">Remote monitoring web app for residential solar panels. Automated alert system in case of system failure or irregular production.</p>
-                  <p class="tech used">Python Anvil SolarEdge API Twilio API</p>
+                  <p class="tech-used">Python Anvil SolarEdge API Twilio API</p>
               </div>
               <div class="project">
                   <h3>tenideas</h3>
                   <p class="desc">Social network encouraging users to generate and share ideas. Antidote to passive consumption of online media.</p>
-                  <p class="tech used">Python Anvil</p>
+                  <p class="tech-used">Python Anvil</p>
               </div>
               <div class="project">
                   <h3>orderly</h3>
                   <p class="desc">Maintenance work order web app built with tenants' needs in mind.</p>
+                  <p class="tech-used">Python Anvil</p>
+              </div>
+              <div class="project">
+                  <h3>sample project</h3>
+                  <p class="desc">WebApp built to automate the tubes and the pipes of the internet.</p>
+                  <p class="tech-used">React PostgreSQL sass</p>
+              </div>
+              <div class="project">
+                  <h3>sample project</h3>
+                  <p class="desc">WebApp built to automate the tubes and the pipes of the internet.</p>
+                  <p class="tech-used">React PostgreSQL sass</p>
+              </div>
+              <div class="project">
+                  <h3>sample project</h3>
+                  <p class="desc">WebApp built to automate the tubes and the pipes of the internet.</p>
+                  <p class="tech-used">React PostgreSQL sass</p>
               </div>
           </div>
       </section>
-      <section id="work_experience">
-          <h2 class="section_header">recent work experience</h2>
+      <section id="work_experience" class="content-section">
+          <h2 class="section-header">recent work experience</h2>
           <div class="project-tile">
-              <div class="work_experience">
+              <div class="project work_experience">
                   <h3>arizona microgreens</h3>
                   <p class="desc">bootstrapped innovative urban greenhouse social enterprise.<br>Launched successful product lines for retail, hospitality, and direct-to-consumer markets.</p>
               </div>
-              <div class="work_experience">
+              <div class="project work_experience">
                   <h3>communication coach</h3>
                   <p class="desc">design and lead high-impact empathetic communication workshops for organizations, teams, and individuals.</p>
               </div>
           </div>
-      <section id="projects">
-          <h2 class="section_header">projects</h2>
+      </section>
+      <section id="projects" class="content-section">
+          <h2 class="section-header">projects</h2>
           <div class="project-tile">
-              <div class="other">
+              <div class="project other">
                   <h3>savor</h3>
                   <p class="desc">mindful eating events produced for public events, private clients, and spiritual centers.</p>
               </div>
-              <div class="other">
+              <div class="project other">
                   <h3>guesthouse renovation</h3>
                   <p class="desc">complete design+build renovation of a workshop into a 420sq ft vacation rental.</p>
               </div>
           </div>
-      <section id="contact" class="contact-section">
-          <div class="section-header">let's connect</div>
-              <p>Open to new opportunities, collaborations, and giving feedback</p>
-          </div>
+      </section>
+      <section id="contact" class="content-section contact-section">
+          <h2 class="section-header">let's connect</h2>
+          <p id="contact-line">Open to new opportunities, collaborations, and giving feedback.</p>
           <div class="contact-links">
               <a class="btn contact-details" href="https://github.com/josephrmartinez" id="profile-link" target="_blank">
-                  <i class="fa-brands fa-github"></i>
-                  github</a>
+                  <img src="./github.svg" class="logo" alt="github logo" height="25" width="25">GitHub</a>
               <a class="btn contact-details" href="https://www.linkedin.com/in/joseph-martinez-08174811/" target="_blank">
-                  <i class="fa-brands fa-linkedin"></i>
-                  linkedin</a>
+                  <img src="./linkedin.svg" class="logo" alt="linkedin logo" height="25" width="25">
+                  LinkedIn</a>
               <a class="btn contact-details" href="mailto:joseph.r.martinez@gmail.com" target="_blank">
-                  <i class="fa-regular fa-at"></i>
+                  <img src="./inbox.svg" class="logo" alt="inbox" height="25" width="25">
                   email</a>
           </div>
       </section>
@@ -118,13 +133,3 @@
 
 
 </html>
-
-<!-- <img class="icon" src="icons/git.png" alt="git icon" title="git">
-<img class="icon" src="icons/anvil.png" alt="anvil icon" title="anvil">
-<img class="icon" src="icons/graphql.png" alt="graphql icon" title="GraphQL">
-<img class="icon" src="icons/nodejs.png" alt="nodejs icon" title="node.js">
-<img class="icon" src="icons/postgresql.png" alt="postgresql icon" title="PostgreSQL">
-<img class="icon" src="icons/python.png" alt="python icon" title="python 3">
-<img class="icon" src="icons/react.png" alt="react icon" title="React">
-<img class="icon" src="icons/sass.png" alt="sass icon" title="Sass">
-<img class="icon" src="icons/typescript.png" alt="typescript icon" title="typescript"> -->
