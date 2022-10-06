@@ -19,6 +19,12 @@ section{
 .section-header{
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(230, 230, 230);
+}
+
+h3{
+    text-shadow: 1px 1px 2px rgb(230, 230, 230);
 }
 
 .content-section{
@@ -262,6 +268,52 @@ h1 {
 .projectlinkicon{
     width: 25px;
     height: 25px;
+}
+
+.work_experience{
+    border-left: 3px solid rgb(255, 132, 0);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height: 250px;
+    padding: 0 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 20px 1fr 20px;
+}
+
+.work_experience>.projectname{
+    grid-row: 1;
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    text-shadow: 2px 2px 2px rgb(230, 230, 230);
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.work_experience>.role{
+    grid-row: 2;
+    font-size: .8em;
+}
+
+.work_experience>.desc{
+    grid-row: 3
+}
+
+.work_experience>.years{
+    display: flex;
+}
+
+.years>span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    word-spacing: 10px;
+    align-self: flex-end;
+    margin-bottom: 1em;
 }
 
 #contact-line{
