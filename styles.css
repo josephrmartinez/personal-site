@@ -52,7 +52,7 @@ h3{
 
 
 
-@media only screen and (max-width:780px) {
+@media only screen and (max-width:800px) {
     #welcome-page{
         display: flex;
         flex-direction: column;
@@ -336,6 +336,7 @@ h1 {
 .contact-details{
     font-size: 12px;
     text-shadow: 2px 2px 1px #fafafa;
+    align-self: center;
 }
 
 .contact-links a {
